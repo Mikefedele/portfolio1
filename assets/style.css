@@ -25,6 +25,10 @@ li.navigation {
     font-size: large;
     text-align: right;
 }
+#proj1 {
+    flex-basis: 100%;
+    flex-wrap: wrap;;
+}
 
 .about { 
     display: flex;
