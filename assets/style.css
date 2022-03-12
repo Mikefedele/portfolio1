@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    height: 120px;
+    background-color: cadetblue;
+    border-bottom: 6px;
+    border-style: solid;
+    border-color: black;
+}
+
+#title {
+    text-align: left;
+    color: white; 
+}
+.navigation {
+    text-align: right;
+    list-style: none;
+    margin: 0 2px;
+}
+ul.navigation {
+display: flex;
+
+}
+li.navigation {
+    display: inline;
+    font-size: large;
+    text-align: right;
+}
+
+.about { 
+    display: flex;
+}
+.about aside {
+   border: 2px;
+}
+
+.work {
+    display: flex 0 0 200;
+    flex-wrap: wrap;
+    border: 5px;
+    border-color: black; 
+}
