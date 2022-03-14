@@ -1,45 +1,109 @@
 header {
     display: flex;
-    height: 120px;
-    background-color: cadetblue;
-    border-bottom: 6px;
-    border-style: solid;
-    border-color: black;
-}
+    border: 5px solid black;
+    width: 100%;
+    height: 80px;
 
+
+    }
+aside {
+    width: 20%;
+    border-right: 5px solid black;
+    background-color: white;
+    margin-right: 2em;
+}
 #title {
-    text-align: left;
-    color: white; 
+    width: 15%;
+    
 }
 .navigation {
-    text-align: right;
-    list-style: none;
-    margin: 0 2px;
-}
-ul.navigation {
-display: flex;
-
-}
-li.navigation {
-    display: inline;
-    font-size: large;
-    text-align: right;
-}
-#proj1 {
-    flex-basis: 100%;
-    flex-wrap: wrap;;
-}
-
-.about { 
     display: flex;
-}
-.about aside {
-   border: 2px;
+    flex-direction: row;
+    width: 80%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
 }
 
-.work {
-    display: flex 0 0 200;
-    flex-wrap: wrap;
-    border: 5px;
-    border-color: black; 
+.navigation li {
+    padding-right: 15px;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: none;
+    padding-left: 20px;
+    
+}
+
+#buffer, footer {
+    width: 100%;
+    height: 80px;
+    line-height: 40px;
+    background-color: blue;
+}
+
+/* main {
+    background-color: gainsboro;
+} */
+.banner {
+    position: absolute;
+    /* top: 50%; */
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+  height: 20px;
+  left: 0;
+}
+.banner h4 {
+    margin: 0 auto;
+}
+.img-box {
+    position: relative;
+    text-align: center;
+}
+
+.row {
+    flex: 0 0 80%;
+}
+.img-box {
+    margin: 1em;
+}
+
+.row2 {
+    display: flex;
+  
+}
+/* .row2 div {
+    margin: 1em; */
+
+
+.about, .work, .contact{
+    display: flex;
+    margin: 10px;
+
+
+
+}
+.about-me, .my-work
+{
+   
+}
+.my-work {
+    flex-direction: column;
+    /* flex: 0 0 80%; */
+}
+
+
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    /* width: 80%; */
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#contact-me {
+    
 }

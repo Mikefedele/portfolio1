@@ -4,21 +4,23 @@
 <head>
     <meta charset="UTF-8" />
     <title>My Portfolio</title>
-    <!-- <link rel="stylesheet" href="./assets/style.css" />     -->
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
 
 <body>
-    <header style="border:1px solid black; display: flex;">
-        <h1 id="title" style="border:1px solid black; width: 50%;">Fedele</h1>
-        <nav style="border:1px solid black; width: 50%;">
-            <ul class="navigation" style="display: flex;justify-content: space-around;list-style: none;">
-                <li><a href="about">About Me</a></li>
-                <li><a href="work">My Work</a></li>
-                <li><a href="contact">Contact Me</a></li>
-                <li><a href="resume">Resume</a></li>
-            </ul>
-        </nav>
+    <header>
+        <h1 id="title">Fedele</h1>
+        <ul class="navigation" style=>
+            <li><a href="about">About Me</a></li>
+            <li><a href="work">My Work</a></li>
+            <li><a href="contact">Contact Me</a></li>
+            <li><a href="resume">Resume</a></li>
+        </ul>
     </header>
+
+    <div id="buffer">
+
+    </div>
 
     <main>
         <section class="about">
@@ -32,19 +34,42 @@
             </div>
         </section>
 
-        <section class="my-work" style="border: 2px solid red; display: flex;">
+        <section class="work">
 
-            <aside class="work" style="border: 1px solid black; width: 33%;">
+            <aside>
                 <h2>My Work</h2>
             </aside>
-            <div class="my-work" style="width: 66%;">
-                <div class="row"style="border: 1px solid black;">
-                <img src="https://via.placeholder.com/600x150" alt="test">
+            <div class="my-work">
+                <div class="row">
+                    <div class="img-box">
+                        <div class="banner"><h4>Project 1</h4></div>
+                        <img src="https://via.placeholder.com/600x150" alt="test">
+                    </div>
                 </div>
-                <div class="row"style="border: 1px solid black;">
-                    <img src="https://via.placeholder.com/300x150" alt="test"> <img src="https://via.placeholder.com/300x150" alt="test">
+                <div class="row2">
+                    <div class="img-box">
+                        <div class="banner"><h4>Project 1</h4></div>
+                        <img src="https://via.placeholder.com/300x150" alt="test">
+                    </div>
+                    <div class="img-box">
+                        <div class="banner"><h4>Project 1</h4></div>
+                        <img src="https://via.placeholder.com/300x150" alt="test">
+                    </div>
                 </div>
-                <div class="row"style="border: 1px solid black;"></div>
+                <div class="row2">
+                    <div class="img-box">
+                        <div class="banner"><h4>Project 1</h4></div>
+
+                        <img src="https://via.placeholder.com/300x150" alt="test">
+                    </div>
+                    <div class="img-box">
+                        <div class="banner"><h4>Project 1</h4></div>
+
+                        <img src="https://via.placeholder.com/300x150" alt="test">
+                    </div>
+
+                </div>
+
                 <!-- <img id="proj1" src="./assets/images/" alt="Project 1">
                 <img class="other" src="./assets/images/" alt="Project 2">
                 <img class="other" src="./assets/images/" alt="Project 3">
@@ -55,23 +80,26 @@
         </section>
     </main>
 
-    <section class="contact">
-        <aside class="contact">
+    <section class="contact" style="display: flex;">
+        <aside class="contacts">
             <h2>Contact Me</h2>
         </aside>
-        <div class="contact-me">
-            <ul>
-                <li><a href="phone">215-555-5555</a></li>
-                <li><a href="www.mikefedele.com" src="www.mikefedele.com" alt="My website">mikefedele.com</a></li>
-                <li><a href="https://github.com/">Github</a></li>
-                <li><a href="https://twitter.com">Twitter</a></li>
-                <li><a href="https://youtube.com">Youtube</a></li>
-            </ul>
-        </div>
+
+        <ul class="contact-me" style="list-style-type: none;">
+            <li id="contact-me"><a href="phone">215-555-5555</a></li>
+            <li id="contact-me"><a href="www.mikefedele.com" src="www.mikefedele.com"
+                    alt="My website">mikefedele.com</a></li>
+            <li id="contact-me"><a href="https://github.com/">Github</a></li>
+            <li id="contact-me"><a href="https://twitter.com">Twitter</a></li>
+            <li id="contact-me"><a href="https://youtube.com">Youtube</a></li>
+        </ul>
+
 
     </section>
 
+    <footer>
 
+    </footer>
 
 </body>
 
