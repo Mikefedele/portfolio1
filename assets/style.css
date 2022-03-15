@@ -93,10 +93,14 @@ aside {
 
 
 }
-.about-me, .my-work
-{
-   
+#me {
+    float: left;
+    margin-right: 1em;
+  
 }
+
+   
+
 .my-work {
     flex-direction: column;
     /* flex: 0 0 80%; */
