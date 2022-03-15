@@ -122,6 +122,9 @@ aside {
     font-size: larger;
 }
 
+.img-box:hover {
+    box-shadow: 0 0 10px #000 inset;
+}
 
 @media screen and (max-width: 768px) {
     .about, .work, .contact {
