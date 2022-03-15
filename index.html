@@ -4,27 +4,28 @@
 <head>
     <meta charset="UTF-8" />
     <title>My Portfolio</title>
-    
+
     <link rel="stylesheet" href="./assets/style.css" />
 </head>
-
+<!-- no link to resume -->
 <body>
-    <header>
-        <h1 id="title">Fedele</h1>
-        <ul class="navigation" style=>
-            <li><a href="about">About Me</a></li>
-            <li><a href="work">My Work</a></li>
-            <li><a href="contact">Contact Me</a></li>
-            <li><a href="resume">Resume</a></li>
-        </ul>
-    </header>
+    <div id="top">
+        <header>
+            <h1 id="title">Fedele</h1>
+            <ul class="navigation" style=>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="resume">Resume</a></li>
+            </ul>
+        </header>
 
-    <div id="buffer">
+        <div id="buffer">
 
+        </div>
     </div>
-
     <main>
-        <section class="about">
+        <section id="about" class="about">
             <aside>
                 <h2>About Me</h2>
             </aside>
@@ -35,7 +36,7 @@
             </div>
         </section>
 
-        <section class="work">
+        <section id="work" class="work">
 
             <aside>
                 <h2>My Work</h2>
@@ -43,32 +44,42 @@
             <div class="my-work">
                 <div class="row">
                     <div class="img-box">
-                        <div class="banner"><h4>Project 1</h4></div>
+                        <div class="banner">
+                            <h4>Project 1</h4>
+                        </div>
                         <a href="https://github.com/"><img src="https://via.placeholder.com/600x150" alt="test">
                     </div>
                 </div>
                 <div class="row2">
                     <div class="img-box">
-                        <div class="banner"><h4>Project 1</h4></div>
+                        <div class="banner">
+                            <h4>Project 2</h4>
+                        </div>
                         <a href="https://github.com/">
-                         <img src="https://via.placeholder.com/300x150" alt="test"></a>
+                            <img src="https://via.placeholder.com/300x150" alt="test"></a>
                     </div>
                     <div class="img-box">
-                        <div class="banner"><h4>Project 1</h4></div>
+                        <div class="banner">
+                            <h4>Project 3</h4>
+                        </div>
                         <a href="https://github.com/">
-                        <img src="https://via.placeholder.com/300x150" alt="test"></a>
+                            <img src="https://via.placeholder.com/300x150" alt="test"></a>
                     </div>
                 </div>
                 <div class="row2">
                     <div class="img-box">
-                        <div class="banner"><h4>Project 1</h4></div>
+                        <div class="banner">
+                            <h4>Project 4</h4>
+                        </div>
                         <a href="https://github.com/">
-                        <img src="https://via.placeholder.com/300x150" alt="test"></a>
+                            <img src="https://via.placeholder.com/300x150" alt="test"></a>
                     </div>
                     <div class="img-box">
-                        <div class="banner"><h4>Project 1</h4></div>
+                        <div class="banner">
+                            <h4>Project 5</h4>
+                        </div>
                         <a href="https://github.com/">
-                        <img src="https://via.placeholder.com/300x150" alt="test"></a>
+                            <img src="https://via.placeholder.com/300x150" alt="test"></a>
                     </div>
 
                 </div>
@@ -83,7 +94,7 @@
         </section>
     </main>
 
-    <section class="contact" style="display: flex;">
+    <section id="contact" class="contact" style="display: flex;">
         <aside class="contacts">
             <h2>Contact Me</h2>
         </aside>
