@@ -127,11 +127,23 @@ aside {
 }
 
 @media screen and (max-width: 768px) {
-    .about, .work, .contact {
-        flex-wrap: wrap;
+    .about, .work, .contact, .row2,
+    .contact-me {
+        flex-wrap: wrap
     }
     aside {
         border-bottom: 5px solid black;
         border-right: 0px;
     }
+    /* .row .img-box {
+        flex-basis: 50%;
+        width: 50%;
+    } */
+    .contact-me, .contact{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        display: block;
+    }
+
 }
