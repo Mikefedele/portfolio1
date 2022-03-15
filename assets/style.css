@@ -4,21 +4,21 @@ header {
     width: 100%;
     height: 80px;
     background-image: linear-gradient(black, white)
-    
-
-
     }
-aside {
+
+    aside {
     width: 20%;
     border-right: 5px solid black;
     background-color: white;
     margin-right: 2em;
 }
+
 #title {
     width: 15%;
     color: white;
     padding-left: 1em;
 }
+
 .navigation {
     display: flex;
     flex-direction: row;
@@ -47,9 +47,7 @@ aside {
     /* line-height: 5; */
 }
 
-/* main {
-    background-color: gainsboro;
-} */
+
 .banner {
     position: absolute;
     /* top: 50%; */
@@ -65,9 +63,11 @@ aside {
 .banner h4 {
     margin: 0 auto;
 }
+
 .img-box {
     position: relative;
     text-align: center;
+    margin: 1em;
 }
 
 .row {
