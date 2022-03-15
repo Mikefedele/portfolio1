@@ -39,6 +39,8 @@ aside {
     height: 80px;
     line-height: 40px;
     background-color: blue;
+    text-align: center;
+    /* line-height: 5; */
 }
 
 /* main {
@@ -81,6 +83,7 @@ aside {
 
 .about, .work, .contact{
     display: flex;
+    flex-wrap: wrap;
     margin: 10px;
 
 
@@ -101,9 +104,31 @@ aside {
     flex-direction: row;
     /* width: 80%; */
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: space-between;
+    width: 68%;
 }
 
 #contact-me {
-    
+    margin-block-start: 0%;
+    padding-inline-start: 0%;
+}
+
+#footer {
+    justify-content: center;
+    background-color: blue;
+    align-items: center;
+    line-height: 3;
+    text-align: center;
+    font-size: larger;
+}
+
+
+@media screen and (max-width: 768px) {
+    .about, .work, .contact {
+        flex-wrap: wrap;
+    }
+    aside {
+        border-bottom: 5px solid black;
+        border-right: 0px;
+    }
 }
