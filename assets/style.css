@@ -179,10 +179,13 @@ text-size-adjust: 200px;
     width: 200px;
 }
 
-
-#projectPics {
+#proj1 {
     width: 300px;
-    height: 100px;
+    height: 150px;
 }
 
+#proj3 {
+    width: 300px;
+    height: 150px;
+}
 
