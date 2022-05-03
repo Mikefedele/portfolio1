@@ -27,6 +27,8 @@ header {
     padding-left: 1em;
     font-family: 'Eczar', serif;
 text-size-adjust: 200px;
+vertical-align: bottom;
+color: white;
 /* line-height: 20%; */
 }
 
@@ -39,18 +41,24 @@ text-size-adjust: 200px;
     
 }
 
-#buffer, footer {
+/* #buffer, footer {
     width: 100%;
     height: 80px;
     line-height: 40px;
     /* background-color: blue; */
-    text-align: center;
+    /* text-align: center;
     /* line-height: 5; */
-}
+ */ */
+
+/* .about-me {
+    text-align: end;
+    width: 80%;
+} */
+
 .card {
     box-shadow: 5px 10px 8px #888888;
     border: 2px solid black;
-    margin: 5px;
+    margin: 10px;
 
 }
 
@@ -100,9 +108,9 @@ text-size-adjust: 200px;
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
-
-
-
+}
+.contact {
+    height: 2em;
 }
 
 
@@ -122,10 +130,11 @@ text-size-adjust: 200px;
     display: flex;
     flex-direction: row;
     /* width: 80%; */
-    align-items: flex-end;
+    align-items: baseline;
     justify-content: space-between;
     width: 68%;
     background-image: linear-gradient(white, black);
+    height: 3em;
 
 }
 

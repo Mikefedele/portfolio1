@@ -1,176 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>My Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Eczar:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Eczar:wght@700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="./assets/style.css" />
-  </head>
-  <!-- link to resume n/a -->
+</head>
+<!-- link to resume n/a -->
 
-  <body>
+<body>
     <!-- <div id="headDiv"> -->
-      <header>
-        <h1 id="title">FEDELE</h1>
-      </header>
-      <div id="nav">
+    <header>
+        <h1 id="title">Full Stack FEDELE</h1>
+    </header>
+    <div id="nav">
         <nav class="navbar navbar-dark bg-dark">
-          <!-- Navbar content -->
-          <button type="button" id="aboutBtn" a href="#about" class="btn btn-outline-light">
-            About Me
-          </button>
-          <button type="button" id="workBtn" a href="#work" class="btn btn-outline-light">
-            My Work
-          </button>
-          <button type="button" id="contactBtn" onclick="window.location.href= '#contact' " class="btn btn-outline-light">
-            Contact Me
-          </button>
-          <button type="button" id="resumeBtn" a href="#resume" class="btn btn-outline-light" onclick="window.location.href='#resume'">
-            Resume
-          </button>
+            <!-- Navbar content -->
+            <button type="button" id="aboutBtn" onclick='window.location.href="#about"'' class="btn btn-outline-light">
+                About Me
+            </button>
+            <button type="button" id="workBtn" onclick='window.location.href="#work" '' class="btn btn-outline-light">
+                My Work
+            </button>
+            <button type="button" id="contactBtn" onclick="window.location.href= '#contact' "
+                class="btn btn-outline-light">
+                Contact Me
+            </button>
+            <button type="button" id="resumeBtn" onclick='window.location.href="#resume" 'class="btn btn-outline-light"
+                onclick="window.location.href='#resume'">
+                Resume
+            </button>
         </nav>
-      </div>
+    </div>
     <!-- </div> -->
     <main>
-      <section id="about" class="about">
-        <aside>
-          <h2>About Me</h2>
-        </aside>
-        <div class="about-me">
-          <img
-            id="me"
-            src="./assets/images/me.jpg"
-            alt="picture of me"
-            class="img-thumbnail"
-            width="100px"
-            height="100px"
-          />
-          <!-- <img id="me" src="./assets/images/me.jpg" width="100px" height="100px" style="flex-wrap: wrap;"> -->
-          <p>
-            Hi! Thank you for visiting my site. I have experience in HTML, CSS &
-            JavaScript.
-          </p>
-        </div>
-      </section>
+        <section id="about" class="about row">
+            <aside>
+                <h2>About Me</h2>
+            </aside>
+            <div class="about-me col-9">
+                <img id="me" src="./assets/images/me.jpg" alt="picture of me" class="img-thumbnail" width="100px"
+                    height="100px" />
+                <!-- <img id="me" src="./assets/images/me.jpg" width="100px" height="100px" style="flex-wrap: wrap;"> -->
+                <p>
+                    Hi! Thank you for visiting my site. My name is Mike Fedele & I'm a full stack web developer. It was
+                    during the shutdowns for covid that I realized how much I enjoyed coding. My front-end skills
+                    include <em>HTML, CSS, Javascript & REACT</em> using multiple frameworks. On the back-end I have
+                    experience with <em>NodeJS, Express, Mysql & nosql.</em> This includes best practices for data
+                    management, file structures, security & testing.
+                </p>
+                <p>
+                    Pre-Covid I ran a photo/video booth company for nearly 10 years. I managed multiple part time
+                    employees and handled every aspect of running the business.
+                </p>
+            </div>
+        </section>
 
-      <section id="work" class="work">
-        <aside>
-          <h2>My Work</h2>
-        </aside>
-        <div class="my-work">
-          <div class="row">
-            <div class="card">
-              <div class="card-header">
-                <h3>Daily Meal Planner</h3>
-              </div>
-              <a href="https://mikefedele.github.io/daily-meal-planner/"
-                ><img
-                  class="card-img-top"
-                  alt="Responsive image"
-                  id="meal"
-                  src="./assets/images/mealPlanner.png"
-              /></a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="card">
-              <div class="card-header">
-                <h3>Weather Forecaster</h3>
-              </div>
-              <a href="https://github.com/">
-                <img
-                  id="proj1"
-                  src="./assets/images/weather.png"
-                  alt="weatherForecaster"
-              /></a>
-            </div>
-            <div class="card">
-                <a href="https://mikefedele.github.io/scheduler/">
-              <div class="card-header">
-                <h3>Daily Scheduler</h3>
-              </div>
-                <img id="proj3" src="./assets/images/scheduler.png"
-              /></a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="card">
-                <a href="https://mikefedele.github.io/scheduler/">
-                <div class="card-header">
-                  <h3>E-Comm Backend</h3>
+        <section id="work" class="work">
+            <aside>
+                <h2>My Work</h2>
+            </aside>
+            <div class="my-work"><a href="https://mikefedele.github.io/daily-meal-planner/">
+                <div class="row">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Daily Meal Planner</h3>
+                        </div>
+                        <img class="card-img-top"
+                                alt="Responsive image" id="meal" src="./assets/images/mealPlanner.png" /></a>
+                    </div>
                 </div>
-                  <img id="proj3" src="./assets/images/codeBG.jpg"
-                /></a>
-            </div>
-            <div class="card">
-                <a href="https://submit-rocket.herokuapp.com/">
-                <div class="card-header">
-                  <h3>Submit Rocket</h3>
+                <div class="row">
+                    <div class="card"><a href="https://github.com/">
+                        <div class="card-header">
+                            <h3>Weather Forecaster</h3>
+                        </div>                        
+                            <img id="proj1" src="./assets/images/weather.png" alt="weatherForecaster" /></a>
+                    </div>
+                    <div class="card">
+                        <a href="https://mikefedele.github.io/scheduler/">
+                            <div class="card-header">
+                                <h3>Daily Scheduler</h3>
+                            </div>
+                            <img id="proj3" src="./assets/images/scheduler.png" />
+                        </a>
+                    </div>
                 </div>
-                  <img id="proj3" src="./assets/images/submitRocket.png"
-                /></a>
-            </div>
-
-
-
-
-
-
-
-
-
-            <!-- <div class="img-box">
-              <div class="banner">
-                <h3>Project 5</h3>
-              </div>
-              <a href="https://github.com/">
-                <img src="https://via.placeholder.com/300x150" alt="test"
-              /></a>
-            </div> -->
-            <!-- </div> -->
-
-          <!-- <img id="proj1" src="./assets/images/" alt="Project 1">
-                <img class="other" src="./assets/images/" alt="Project 2">
-                <img class="other" src="./assets/images/" alt="Project 3">
-                <img class="other" src="./assets/images/" alt="Project 4">
-                <img class="other" src="./assets/images/" alt="Project 5"> -->
-    
-      </section>
+                <div class="row">
+                    <div class="card">
+                        <a href="https://mikefedele.github.io/scheduler/">
+                            <div class="card-header">
+                                <h3>E-Comm Backend</h3>
+                            </div>
+                            <img id="proj3" src="./assets/images/codeBG.jpg" />
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="https://submit-rocket.herokuapp.com/">
+                            <div class="card-header">
+                                <h3>Submit Rocket</h3>
+                            </div>
+                            <img id="proj3" src="./assets/images/submitRocket.png" />
+                        </a>
+                    </div>
+        </section>
     </main>
 
     <section id="contact" class="contact" style="display: flex">
-      <aside class="contacts">
-        <h2>Contact Me</h2>
-      </aside>
+        <aside class="contacts">
+            <h2>Contact Me</h2>
+        </aside>
 
-      <ul class="contact-me" style="list-style-type: none">
-        <li id="contact"><a href="phone">215-555-5555</a></li>
-        <li id="contact-me">
+        <ul class="contact-me" style="list-style-type: none">
+            <li id="contact"><a href="phone">215-555-5555</a></li>
+            <!-- <li id="contact-me">
           <a href="www.mikefedele.com" src="www.mikefedele.com" alt="My website"
             >mikefedele.com</a
           >
-        </li>
-        <li><a href="https://github.com/">Github</a></li>
-        <li><a href="https://twitter.com">Twitter</a></li>
-        <li><a href="https://youtube.com">Youtube</a></li>
-      </ul>
+        </li> -->
+            <li><button type="button" id="aboutBtn" onclick='window.location.ref="www.mikefedele.com" ' class="btn btn-outline-light">
+                    mikefedele.com
+                </button></li>
+            <li><button type="button" id="aboutBtn" onclick="window.location.href='https://github.com/'" class="btn btn-outline-light">
+                    Github
+                </button></li>
+            <!-- <a href="https://github.com/">Github</a></li> -->
+            <li><button type="button" id="aboutBtn" onclick="window.location.href='https://twitter.com' " class="btn btn-outline-light">
+                    Twitter
+                </button></li>
+            <li><button type="button" id="resume" onclick='window.location.href="https://docs.google.com/document/d/1MKAswipjWzAinGEHlSlNrXDov03hhQNV383_UOUX4YY/edit?usp=sharing" ' class="btn btn-outline-light">
+                    Resume
+                </button></li>
+            <!-- <li><a href="https://twitter.com">Twitter</a></li> -->
+            <!-- <li><a href="https://youtube.com">Youtube</a></li> -->
+        </ul>
     </section>
 
-    <footer>
+    <!-- <footer>
       <p #footer><em>Thanks for visiting!</em></p>
-    </footer>
-  </body>
+    </footer> -->
+</body>
+
 </html>
